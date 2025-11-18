@@ -128,13 +128,18 @@ Data preprocessing is an essential step to prepare the dataset for modeling. The
 - Provides visual insight into how the model makes decisions.
 - Helps in understanding feature influence in separating classes.
 
+  
+<img width="543" height="415" alt="db" src="https://github.com/user-attachments/assets/0fa6f7b1-e154-4db2-984c-1820cce4efd6" />
+
 ## Feature Importance
 
 - Identify which features contribute most to the Decision Tree model.  
 - `DecisionTreeClassifier.feature_importances_` used to compute importance scores.  
 - Features like `radius_mean`, `perimeter_mean`, and `concavity_mean` have the highest importance.  
 - Bar chart plotted to show relative importance of all features.  
-- Helps in understanding which features drive model predictions and can guide feature selection.  
+- Helps in understanding which features drive model predictions and can guide feature selection.
+  <img width="989" height="590" alt="feature importance" src="https://github.com/user-attachments/assets/e4405cb3-db63-4576-969f-f650c08c1630" />
+
 
 ## Decision Tree Visualization
 
@@ -143,6 +148,7 @@ Data preprocessing is an essential step to prepare the dataset for modeling. The
 - Color-filled visualization improves readability of the tree.
 - Enables interpretation of how the model classifies tumors.
 - Helps communicate model logic to non-technical audiences.
+<img width="1200" height="1200" alt="imagename" src="https://github.com/user-attachments/assets/1f498b2a-be13-437e-b12b-eb31d76e4edb" />
 
 ## Tools and Libraries Used
 
